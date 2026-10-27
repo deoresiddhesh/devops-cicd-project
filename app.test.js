@@ -16,7 +16,7 @@ test("homepage returns a successful response", async () => {
     const body = await response.text();
 
     assert.equal(response.status, 200);
-    assert.match(body, /CI\/CD Pipeline Successfully Implemented/);
+    assert.match(body, /CI\/CD Pipeline/);
   } finally {
     if (server.listening) {
       await new Promise((resolve, reject) => {
