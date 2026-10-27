@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
         </style>
       </head>
       <body>
-        <h1>CI/CD Pipeline Successfully Implemented!</h1>
+        <h1>My CI/CD Pipeline - Version 2</h1>
         <p>My web application is running.</p>
         <p>Built using Node.js, Express and GitHub Actions.</p>
       </body>
